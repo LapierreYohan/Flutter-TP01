@@ -11,16 +11,14 @@
             ]
         },
         {
-            "name": "lapierre_tpnote (profile mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
             "name": "lapierre_tpnote (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "toolArgs": [
+                "--dart-define",
+                "API_KEY=AIzaSyB-2TBQ-nEu3fCtMpo9EN9mfqjb9P9A3OA",
+            ]
         },
     ]
 }
